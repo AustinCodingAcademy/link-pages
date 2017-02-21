@@ -59,7 +59,9 @@
                   <a href="https://${link.split('https_')[1].split('_.png')[0].split('_').join('/')}" target="_blank">Visit Page</a>
                   <a href="https://github.com/${link.split('https_')[1].split('_.png')[0].split('.github.io_').join('/')}" target="_blank">View Source</a>
                 </div>
-                <a href="https://${link.split('https_')[1].split('_.png')[0].split('_').join('/')}" target="_blank"><img class="img-thumbnail img-responsive" data-lazy="img/${link}"></a>
+                <a href="https://${link.split('https_')[1].split('_.png')[0].split('_').join('/')}" target="_blank" class="justify-content-space-around">
+                  <img class="img-thumbnail img-responsive" data-lazy="img/${link}">
+                </a>
               </article>
             `)
           });
